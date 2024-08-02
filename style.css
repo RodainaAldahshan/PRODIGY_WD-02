@@ -1,0 +1,87 @@
+*,
+*:before,
+*:after {
+    padding: 0 ;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(89, 94, 95);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.timer-display{
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin-bottom: 20px; 
+    padding: 10px;
+    margin:10px;
+}
+.container{
+flex-direction: column;
+border: 1px solid black;
+border-radius: 5px;
+width:300px;
+position: absolute;
+transform: translate(-50%, -50%);
+top: 50%;
+left: 50%;
+display: flex;
+border-style:ridge;
+align-items: center;
+padding: 20px 0;
+border-radius: 10px;
+height: 200px;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.338);
+}
+
+.button {
+
+    width: 100%;
+    margin: 45px auto 0 auto;
+    display: flex;
+    justify-content: space-around ;
+}
+.button button{
+    
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    align-items: center !important;
+    width: 120px;
+    height: 45px;
+    border: none;
+    font-size: 18px;
+    border-radius: 9px;
+    cursor: pointer;
+    color:black
+}
+#Start:hover
+{
+    background-color: black;
+    color:white;
+}
+#Pause:hover
+{
+    background-color: black;
+    color:red;
+}
+#Reset:hover
+{
+    background-color: black;
+    color:rgb(57, 128, 190);
+}
+#Start{
+    background-color: aliceblue;
+    
+}
+#Pause{
+    background-color: red;
+}
+#Reset{
+    background-color: rgb(57, 128, 190);
+}
